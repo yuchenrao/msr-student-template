@@ -29,15 +29,15 @@ variable when running `jekyll build --watch`, run the following commands to use
 `rvm` (Ruby Version Manager) to install a new version of `ruby` and `jekyll`:
 
 ```
-1 $ sudo apt-get install libgdbm-dev libncurses5-dev automake libtool bison \
+1 $  sudo apt-get install libgdbm-dev libncurses5-dev automake libtool bison \
       libffi-dev curl icedtea-7-jre-jamvm nodejs nodejs-dev
-2 $ curl -L https://get.rvm.io | bash -s stable
-3 $ source ~/.rvm/scripts/rvm
-4 $ echo "source ~/.rvm/scripts/rvm" >> ~/.bashrc
-5 $ rvm install ruby --latest
-6 $ echo "gem: --no-ri --no-rdoc" > ~/.gemrc
-7 $ gem update --system
-8 $ gem install jekyll
+2 $  curl -L https://get.rvm.io | bash -s stable
+3 $  source ~/.rvm/scripts/rvm
+4 $  echo "source ~/.rvm/scripts/rvm" >> ~/.bashrc
+5 $  rvm install ruby --latest
+6 $  echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+7 $  gem update --system
+8 $  gem install jekyll
 ```
 * line 1 installs dependencies for `rvm`
 * lines 2-4 configure your environment to use `ruby` versions installed from
