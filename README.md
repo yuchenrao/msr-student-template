@@ -1,4 +1,4 @@
-# Master of Science in Robotics Student Portfolio Template
+# MSR Student Portfolio Template
 
 
 
@@ -25,7 +25,8 @@ below. If you see errors about the `--watch` variable when running `jekyll build
 install a new version of `ruby` and `jekyll`:
 
 ```
-sudo apt-get install libgdbm-dev libncurses5-dev automake libtool bison libffi-dev
+sudo apt-get install libgdbm-dev libncurses5-dev automake libtool bison \
+  libffi-dev curl icedtea-7-jre-jamvm nodejs nodejs-dev
 curl -L https://get.rvm.io | bash -s stable
 source ~/.rvm/scripts/rvm
 echo "source ~/.rvm/scripts/rvm" >> ~/.bashrc
