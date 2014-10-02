@@ -48,7 +48,10 @@ variable when running `jekyll build --watch`, run the following commands to use
 * line 8 installs the latest `jekyll`
 
 ### Basic Usage (recommended)
-In one terminal, build the jekyll site, watching for any changes (run in site root directory)
+
+You'll first need a Jekyll site. If you are interested in using this template,
+you should clone this repo. In one terminal, build the jekyll site, watching for
+any changes (run in the site root directory)
 ```
 $  jekyll build --watch
 ```
